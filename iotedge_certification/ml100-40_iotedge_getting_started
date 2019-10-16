@@ -1,12 +1,10 @@
 ---
-platform: {enter the OS name running on edge device}
-device: {enter your device name here}
-language: {enter the language used to you edge device}
+platform: Ubuntu Server 18.04
+device: OnLogic ML100-40
+language: C
 ---
 
-*We highly recommend keeping this document current, and Microsoft reserves a right to remove devices and documents from the Azure IoT Device Catalog if document contains broken URL links, incorrect information etc.*
-
-Run a simple {enter the language used to you edge device} sample on {enter your device name here} device running {enter the OS name running on edge device. Specify distribution or Windows SKU information. Ex: Ubuntu Sever 16.04, Windows 10 IoT Core. Only [Tier 1 OS](https://docs.microsoft.com/en-us/azure/iot-edge/support) is allowed}
+Run a simple C sample on an ML100-40 device running Ubuntu Server 18.04.
 ===
 ---
 
@@ -16,22 +14,13 @@ Run a simple {enter the language used to you edge device} sample on {enter your 
 -   [Step 1: Prerequisites](#Prerequisites)
 -   [Step 2: Prepare your Device](#PrepareDevice)
 -   [Step 3: Manual Test for Azure IoT Edge on device](#Manual)
--   [Step 4: Next Steps](#NextSteps)
--   [Step 5: Troubleshooting](#Step-5-Troubleshooting)
-
-# Instructions for using this template
-
--   Replace the text in {placeholders} with correct values.
--   Delete the lines {{enclosed}} after following the instructions enclosed between them.
--   It is advisable to use external links, wherever possible.
--   Remove this section from final document.
 
 <a name="Introduction"></a>
 # Introduction
 
 **About this document**
 
-This document describes how to connect {enter your device name here} device running {enter the OS name running on edge device} with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
+This document describes how to connect an ML100-40 device running Ubuntu Server 18.04 with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
 
 -   Configuring Azure IoT Hub
 -   Registering your IoT device
@@ -54,7 +43,7 @@ You should have the following items ready before beginning the process:
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
 
--   {{Write down the instructions required to setup, configure and connect your device. Please use external links when possible pointing to your own page with device preparation steps.}}
+-   Install Ubuntu Server 18.04 on your OnLogic ML100-40 device
 
 <a name="Manual"></a>
 # Step 3: Manual Test for Azure IoT Edge on device
