@@ -1,10 +1,10 @@
 ---
 platform: Ubuntu Sever 18.04
-device: Logic Supply ML300 Series
+device: OnLogic ML300 Series
 language: C
 ---
 
-Run a simple C sample on your Logic Supply ML300 Series device running Ubuntu Sever 18.04
+Run a simple C sample on your OnLogic ML300 Series device running Ubuntu Sever 18.04
 ===
 ---
 
@@ -20,7 +20,7 @@ Run a simple C sample on your Logic Supply ML300 Series device running Ubuntu Se
 
 **About this document**
 
-This document describes how to connect Logic Supply ML300 Series device running Ubuntu Sever 18.04 with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
+This document describes how to connect OnLogic ML300 Series device running Ubuntu Sever 18.04 with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
 
 -   Configuring Azure IoT Hub
 -   Registering your IoT device
@@ -37,17 +37,17 @@ You should have the following items ready before beginning the process:
 -   [Sign up to IOT Hub](https://account.windowsazure.com/signup?offer=ms-azr-0044p)
 -   [Add the Edge Device](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux)
 -   [Add the Edge Modules](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux#deploy-a-module)
--   [Logic Supply M300 Series device](https://www.logicsupply.com/computers/industrial/fanless/ml300-series/)
+-   [OnLogic M300 Series device](https://www.onlogic.com/computers/industrial/fanless/ml300-series/)
 
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
 
--   Install Ubuntu Sever 18.04 on your Logic Supply ML300 Series device
--   [Logic Supply ML350 Series Manual](https://cdn.logicsupply.com/pub/media/resources/manuals/Logic_Supply_ML350_Manual_03-01-2018.pdf)
--   [Logic Supply ML350 Series Spec Sheet](http://static.logicsupply.com/resources/spec-sheets/logic-supply-ml350-series-spec-sheet.pdf)
--   [Logic Supply ML350 Series Dimensional Drawings](https://cdn.logicsupply.com/pub/media/resources/spec-drawings/logic-supply-ml350-series-dimensional-drawings-020518.pdf)
--   [Logic Supply ML340 Series Spec Sheet](http://static.logicsupply.com/resources/spec-sheets/logic-supply-ml340-series-spec-sheet-101118.pdf)
--   [Logic Supply ML340 Series Dimensional Drawings](https://cdn.logicsupply.com/pub/media/resources/spec-drawings/logic-supply-ml340-series-dimensional-drawings-020917.pdf)
+-   Install Ubuntu Sever 18.04 on your OnLogic ML300 Series device
+-   [OnLogic ML350 Series Manual](https://cdn.onlogic.com/pub/media/resources/manuals/Logic_Supply_ML350_Manual_03-01-2018.pdf)
+-   [OnLogic ML350 Series Spec Sheet](http://static.onlogic.com/resources/spec-sheets/logic-supply-ml350-series-spec-sheet.pdf)
+-   [OnLogic ML350 Series Dimensional Drawings](https://cdn.onlogic.com/pub/media/resources/spec-drawings/logic-supply-ml350-series-dimensional-drawings-020518.pdf)
+-   [OnLogic ML340 Series Spec Sheet](http://static.onlogic.com/resources/spec-sheets/logic-supply-ml340-series-spec-sheet-101118.pdf)
+-   [OnLogic ML340 Series Dimensional Drawings](https://cdn.onlogic.com/pub/media/resources/spec-drawings/logic-supply-ml340-series-dimensional-drawings-020917.pdf)
 
 <a name="Manual"></a>
 # Step 3: Manual Test for Azure IoT Edge on device
