@@ -1,10 +1,10 @@
 ---
 platform: Ubuntu Sever 18.04
-device: Logic Supply MC510 Series
+device: OnLogic MC510 Series
 language: C
 ---
 
-Run a simple C sample on your Logic Supply MC510 Series device running Ubuntu Sever 18.04
+Run a simple C sample on your OnLogic MC510 Series device running Ubuntu Sever 18.04
 ===
 ---
 
@@ -20,7 +20,7 @@ Run a simple C sample on your Logic Supply MC510 Series device running Ubuntu Se
 
 **About this document**
 
-This document describes how to connect Logic Supply MC500 Series device running Ubuntu Sever 18.04 with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
+This document describes how to connect OnLogic MC500 Series device running Ubuntu Sever 18.04 with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
 
 -   Configuring Azure IoT Hub
 -   Registering your IoT device
@@ -37,12 +37,12 @@ You should have the following items ready before beginning the process:
 -   [Sign up to IOT Hub](https://account.windowsazure.com/signup?offer=ms-azr-0044p)
 -   [Add the Edge Device](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux)
 -   [Add the Edge Modules](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux#deploy-a-module)
--   [Logic Supply MC510 Series device](https://www.logicsupply.com/computers/industrial/fanned/mc500-series/)
+-   [OnLogic MC510 Series device](https://www.onlogic.com/computers/industrial/fanned/mc500-series/)
 
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
 
--   Install Ubuntu Sever 18.04 on your Logic Supply MC510 Series device
+-   Install Ubuntu Sever 18.04 on your OnLogic MC510 Series device
 
 <a name="Manual"></a>
 # Step 3: Manual Test for Azure IoT Edge on device
