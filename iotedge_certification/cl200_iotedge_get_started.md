@@ -1,10 +1,10 @@
 ---
 platform: Ubuntu Sever 18.04
-device: Logic Supply CL200 Series
+device: OnLogic CL200 Series
 language: C
 ---
 
-Run a simple C sample on your Logic Supply CL200 Series device running Ubuntu Sever 18.04
+Run a simple C sample on your OnLogic CL200 Series device running Ubuntu Sever 18.04
 ===
 ---
 
@@ -20,7 +20,7 @@ Run a simple C sample on your Logic Supply CL200 Series device running Ubuntu Se
 
 **About this document**
 
-This document describes how to connect Logic Supply CL200 Series device running Ubuntu Sever 18.04 with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
+This document describes how to connect OnLogic CL200 Series device running Ubuntu Sever 18.04 with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
 
 -   Configuring Azure IoT Hub
 -   Registering your IoT device
@@ -37,15 +37,15 @@ You should have the following items ready before beginning the process:
 -   [Sign up to IOT Hub](https://account.windowsazure.com/signup?offer=ms-azr-0044p)
 -   [Add the Edge Device](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux)
 -   [Add the Edge Modules](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux#deploy-a-module)
--   [Logic Supply CL200 Series device](https://www.logicsupply.com/computers/industrial/fanless/cl200-series/)
+-   [OnLogic CL200 Series device](https://www.onlogic.com/computers/industrial/fanless/cl200-series/)
 
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
 
--   Install Ubuntu Sever 18.04 on your Logic Supply CL200 Series device
--   [Logic Supply CL200 Series Manual](https://cdn.logicsupply.com/pub/media/resources/manuals/CL200_Series_User_Guide.pdf)
--   [Logic Supply CL200 Series Spec Sheet](http://static.logicsupply.com/resources/spec-sheets/logic-supply-cl200-series-spec-sheet-120618.pdf)
--   [Logic Supply CL200 Series Dimensional Drawings](https://cdn.logicsupply.com/pub/media/resources/spec-drawings/logic-supply-cl200-series-dimensional-drawings.pdf)
+-   Install Ubuntu Sever 18.04 on your OnLogic CL200 Series device
+-   [OnLogic CL200 Series Manual](https://cdn.onlogic.com/pub/media/resources/manuals/CL200_Series_User_Guide.pdf)
+-   [OnLogic CL200 Series Spec Sheet](http://static.onlogic.com/resources/spec-sheets/logic-supply-cl200-series-spec-sheet-120618.pdf)
+-   [OnLogic CL200 Series Dimensional Drawings](https://cdn.onlogic.com/pub/media/resources/spec-drawings/logic-supply-cl200-series-dimensional-drawings.pdf)
 
 <a name="Manual"></a>
 # Step 3: Manual Test for Azure IoT Edge on device
