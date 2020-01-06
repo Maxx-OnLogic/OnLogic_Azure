@@ -37,7 +37,7 @@ You should have the following items ready before beginning the process:
 -   [Sign up to IOT Hub](https://account.windowsazure.com/signup?offer=ms-azr-0044p)
 -   [Add the Edge Device](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux)
 -   [Add the Edge Modules](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux#deploy-a-module)
--   MC850-70 device
+-   [MC850-70 device](https://www.onlogic.com/mc850-70)
 
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
